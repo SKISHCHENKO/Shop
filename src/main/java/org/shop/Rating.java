@@ -1,2 +1,8 @@
-package org.shop;public enum Rating {
+package org.shop;
+
+//рейтинг товара
+public enum Rating {
+    AVERAGE,
+    GOOD,
+    EXCELLENT
 }

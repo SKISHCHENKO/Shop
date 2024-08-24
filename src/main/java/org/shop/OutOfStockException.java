@@ -1,4 +1,6 @@
 package org.shop;
 
-public class OutOfStoreEsception extends Exception {
+public class OutOfStockException extends Exception {
+    public OutOfStockException(String s) {
+    }
 }
